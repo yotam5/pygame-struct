@@ -11,11 +11,11 @@ class Menu(View):
     
     def __init__(self, manager: ViewsManager) -> None:
         View.__init__(self, manager)
-        self.color = (255, 0, 0)
+        self.color = (255, 0, 0)    # Red
     
     def handle_event(self, event: pygame.Event) -> None:
         if event.type == pygame.KEYDOWN:
-            self.color = (24, 56, 78)
+            self.color = (24, 56, 78)   # Regal Blue
     
     def update(self) -> None:
         pass
